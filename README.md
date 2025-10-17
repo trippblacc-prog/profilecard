@@ -2,4 +2,4 @@ this repository contains a simple Profile Card/component made using HTML, CSS an
 semantic HTML structure
 fully responsive design
 accesible with ARIA labels and "data-testid' attributes for testing
-suports avatars via upload image or url.
+suports avatars via upload image.
