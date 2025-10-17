@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Card</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <article data-testid="test-profile-card" id="profile-card-root">
+            <header id="header-unit">
+
+                <figure id="figure-id">
+
+                    <label for="upload-image">
+                    <img src="images/userimage.jpg" data-testid="test-user-avatar" alt="" id="user-image" aria-label="User's profile photo">
+                    <figcaption data-testid="profile-image">Profile Photo</figcaption>
+                    </label>
+
+                    <input type="file" id="upload-image" accept="image/*">
+
+                </figure>
+
+
+                <div id="header-div">
+
+                    <h2 data-testid="test-user-name" id="user-name" aria-label="Hi, My name is Ebom Onwuegbute">Ebom Onwuegbute.</h2>
+
+                    <p data-testid="test-user-bio" id="user-bio">New to Tech, 
+                        looking forward to learning, growing and making new connections.
+                        I love a challenge and can't wait to acquire new knowledge and
+                        experience.</p>
+
+                    <h3>Current Time:</h3>
+                    <time datetime="00:00" data-testid="time-miliseconds" id="time-counter" class="miliseconds"></time>
+                    
+                    </div>
+            </header>
+
+            <nav data-testid="test-user-social-links" id="social-nav">
+            
+                <a href="" data-testid="test-user-social-X" alt="X"  target="_blank" rel="noopener noreferrer">
+                    <img src="images/x logo1.png" class="social-media-logo" aria-label="visit my X profile">
+                </a>
+                <a href="" data-testid="test-user-social-facebook" alt="Facebook" target="_blank" rel="noopener noreferrer">
+                    <img src="images/fblogo3.png" class="social-media-logo" aria-label="visit my facebook profile">
+                </a>
+                <a href="" data-testid="test-user-social-linkeIn" alt="linkedIn"  target="_blank" rel="noopener noreferrer">
+                    <img src="images/linkedInlogo1.png" class="social-media-logo" aria-label="visit my linkedIn profile">
+                </a>
+            </nav>
+            <div id="hobbiesAndDislikes">
+                <section data-testid="test-user-hobbies" id="section-hobbies">
+
+                    <h3 id="">Hobbies:</h3>
+
+                    <ul id="hobbies-ul">
+                        <li class="hobbies-li">Music</li>
+                        <li class="hobbies-li">Reading</li>
+                        <li class="hobbies-li">Gaming</li>
+                        <li class="hobbies-li">Walking</li>
+                        <li class="hobbies-li">Music production</li>
+                    </ul>
+
+                </section>
+
+                <section data-testid="test-user-dislikes" id="section-dislikes">
+
+                    <h3 id="">Dislikes:</h3>
+
+                    <ul id="dislikes-ul">
+                        <li class="dislikes-li">Noise</li>
+                        <li class="dislikes-li">Snakes</li>
+                        <li class="dislikes-li">Cheating</li>
+                        <li class="dislikes-li">Bad Governance</li>
+                        <li class="dislikes-li">Rudeness</li>
+                        <li class="dislikes-li">Undecided</li>
+                    </ul>
+
+                </section>
+            </div>
+        </article>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
