@@ -386,7 +386,7 @@ li {
   }
 
   #submit-button {
-    width: 80%;
+    width: 100%;
     font-size: 1rem;
     padding: 0.6rem 0.8rem;
   }
@@ -422,4 +422,5 @@ li {
     font-size: 1rem;
     padding: 0.6rem;
   }
+
 }
